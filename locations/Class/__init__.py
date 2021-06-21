@@ -1,1 +1,1 @@
-import location
+from Class.Locations import Locations

@@ -1,3 +1,2 @@
-from locations import *
-from Class import *
-from tests import *
+from Class.Locations import Locations
+from main import *

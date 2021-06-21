@@ -1,1 +1,3 @@
-from location.Class.location import *
+import sys, pytest
+sys.path.insert(0, '../Class')
+from Locations import Locations

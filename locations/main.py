@@ -1,5 +1,5 @@
 import sys
-from Class.location import Locations
+from Class.Locations import Locations
 
 # abre um arquivo com os valores de entrada, processa e cria o dicionario de
 # dependencias
