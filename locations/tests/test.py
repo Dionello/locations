@@ -15,12 +15,12 @@ def compareResult(inFile, outFile):
 
 ######
 # importa o nome dos arquivos da pasta tests, separa entre entradas e saídas
-testfiles = os.listdir('tests')
+testfiles = os.listdir('tests_files')
 
 infile = []
 outfile = []
 
-prefix = 'tests/'
+prefix = 'tests_files/'
 
 for file in testfiles:
     if file.endswith('.in'):

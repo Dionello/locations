@@ -11,8 +11,8 @@ def processDependencies(path):
         for line in file.readlines():
             localName, father = line.rstrip('\n').split(' ')
             locations.addLocal(localName, father)
-            file.close()
 
+        file.close()
     dependecies = locations.dependencies()
     return dependecies
 
@@ -21,7 +21,7 @@ def printDependecies(dependecies):
     text = []
     for local in dependecies:
         text.append(local + ' ' + str(dependecies[local]))
-    text = '\n'.join(text)
+    text = '\n'.join(text) + '\n'
     return text
 
 def main(args):
