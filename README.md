@@ -2,7 +2,8 @@
 
 ---
 
-Este projeto desenvolve um algoritmo desenvolvido em python para solução do problema 'locations', descrito em detalhes PDF na pasta ./docs/locations (en).pdf, proposto pela empresa HVAR Consulting para o processo seletivo.
+Este projeto desenvolve um algoritmo desenvolvido em python para solução do problema 'locations', descrito em detalhes PDF na pasta ./docs/locations (en).pdf, proposto pela empresa HVAR Consulting para o processo seletivo.  
+Uma descrição breve do funcionamento e complexidade se encontra no arquivo .docs/funcionamento.pdf
 
 ## Pré-requisitos
 
